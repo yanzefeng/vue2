@@ -49,7 +49,7 @@ module.exports = {
     "filters": {
         "CubeModule.json": "platform == 'cordova'",
         "build/webpack.doc.conf.js": "doc == true",
-        "docs": "doc == true"
+        "docs/mds": "doc == true"
     },
     "skipInterpolation": ["src/**/!(App).vue", "docs/**/*"],
     "completeMessage": "To get started:\n\n  {{^inPlace}}cd {{destDirName}}\n  {{/inPlace}}npm install\n  npm run dev"
